@@ -126,10 +126,10 @@ export default function HomePage() {
             </div>
             <div className="space-y-3 xl:space-y-4">
               <h1 className="text-3xl xl:text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-lavender bg-clip-text text-transparent">
-                你好，我是 [你的名字]
+                你好，我是 [格桑旺姆]
               </h1>
               <p className="text-base xl:text-2xl text-muted-foreground max-w-2xl">
-                一个热爱生活、追求梦想的 [你的专业] 学生
+                一个热爱生活、追求梦想的 [经济学] 学生
               </p>
             </div>
             <div className="flex gap-4">
@@ -167,10 +167,10 @@ export default function HomePage() {
                   <h3 className="text-xl xl:text-2xl font-bold">基本信息</h3>
                 </div>
                 <div className="space-y-3 text-sm xl:text-base text-muted-foreground">
-                  <p><span className="font-semibold text-foreground">姓名：</span>[你的名字]</p>
-                  <p><span className="font-semibold text-foreground">年龄：</span>[你的年龄]</p>
-                  <p><span className="font-semibold text-foreground">家乡：</span>[你的家乡]</p>
-                  <p><span className="font-semibold text-foreground">座右铭：</span>[你的座右铭]</p>
+                  <p><span className="font-semibold text-foreground">姓名：</span>[格桑旺姆]</p>
+                  <p><span className="font-semibold text-foreground">年龄：</span>[19]</p>
+                  <p><span className="font-semibold text-foreground">家乡：</span>[西藏林芝]</p>
+                  <p><span className="font-semibold text-foreground">座右铭：</span>[迎万难 赢万难]</p>
                 </div>
               </CardContent>
             </Card>
@@ -184,10 +184,10 @@ export default function HomePage() {
                   <h3 className="text-xl xl:text-2xl font-bold">教育背景</h3>
                 </div>
                 <div className="space-y-3 text-sm xl:text-base text-muted-foreground">
-                  <p><span className="font-semibold text-foreground">学校：</span>[你的学校]</p>
-                  <p><span className="font-semibold text-foreground">专业：</span>[你的专业]</p>
-                  <p><span className="font-semibold text-foreground">学历：</span>[本科/研究生]</p>
-                  <p><span className="font-semibold text-foreground">入学时间：</span>[入学年份]</p>
+                  <p><span className="font-semibold text-foreground">学校：</span>[武汉理工大学]</p>
+                  <p><span className="font-semibold text-foreground">专业：</span>[经济学]</p>
+                  <p><span className="font-semibold text-foreground">学历：</span>[本科]</p>
+                  <p><span className="font-semibold text-foreground">入学时间：</span>[2024]</p>
                 </div>
               </CardContent>
             </Card>
@@ -201,7 +201,7 @@ export default function HomePage() {
                   <h3 className="text-xl xl:text-2xl font-bold">个人简介</h3>
                 </div>
                 <p className="text-sm xl:text-base text-muted-foreground leading-relaxed">
-                  [在这里写一段关于你自己的介绍，包括你的性格特点、学习经历、未来规划等。可以分享你的成长故事、学习心得、对未来的展望等内容。]
+                  [大家好，我是一名经济学院的在读学生。我的性格较开朗，对于未来，我没有很清晰的规划。短期尽力学好专业知识。]
                 </p>
               </CardContent>
             </Card>
@@ -220,7 +220,7 @@ export default function HomePage() {
               {
                 icon: <Music className="w-8 h-8 xl:w-12 xl:h-12" />,
                 title: '音乐',
-                description: '喜欢听各种类型的音乐，偶尔也会尝试弹奏乐器',
+                description: '喜欢听各种类型的音乐，偶尔也会尝试上台唱歌',
                 color: 'primary',
                 image: 'https://miaoda-site-img.cdn.bcebos.com/images/baidu_image_search_259aeb8e-119c-4541-8a61-be0023689945.jpg'
               },
@@ -247,9 +247,8 @@ export default function HomePage() {
               },
               {
                 icon: <Code className="w-8 h-8 xl:w-12 xl:h-12" />,
-                title: '编程',
-                description: '对编程充满热情，喜欢创造有趣的项目',
-                color: 'sky-blue',
+                title: '羽毛球',
+                description: '羽毛球既可以锻炼身体也很有趣',
                 image: 'https://miaoda-site-img.cdn.bcebos.com/images/baidu_image_search_e6ee021a-4f77-477c-a90f-2e8cec2d5652.jpg'
               },
               {
@@ -327,8 +326,8 @@ export default function HomePage() {
                 <div className="space-y-4">
                   {[
                     { name: '中文', level: 100, color: 'bg-primary' },
-                    { name: '英语', level: 80, color: 'bg-secondary' },
-                    { name: '日语', level: 60, color: 'bg-lavender' }
+                    { name: '藏文', level: 100, color: 'bg-secondary' },
+                    { name: '其他',  level: 0, color: 'bg-lavender' }
                   ].map((skill, index) => (
                     <div key={index}>
                       <div className="flex justify-between mb-2">
@@ -366,8 +365,8 @@ export default function HomePage() {
                         <Mail className="w-6 h-6 text-primary" />
                       </div>
                       <div>
-                        <p className="text-sm text-muted-foreground">邮箱</p>
-                        <p className="font-medium">your.email@example.com</p>
+                        <p className="11123456">邮箱</p>
+                        <p className="11123456">your.email@example.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-4">
@@ -375,7 +374,7 @@ export default function HomePage() {
                         <Phone className="w-6 h-6 text-secondary" />
                       </div>
                       <div>
-                        <p className="text-sm text-muted-foreground">电话</p>
+                        <p className="1111111">电话</p>
                         <p className="font-medium">+86 123 4567 8900</p>
                       </div>
                     </div>
@@ -385,7 +384,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground">位置</p>
-                        <p className="font-medium">[你的城市]</p>
+                        <p className="font-medium">[武汉]</p>
                       </div>
                     </div>
                   </div>
@@ -425,7 +424,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-sm text-muted-foreground">
-          <p>© 2025 [你的名字]. All rights reserved.</p>
+          <p>© 2025 [格桑旺姆]. All rights reserved.</p>
           <p className="mt-2">用 ❤️ 制作</p>
         </div>
       </footer>
