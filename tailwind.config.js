@@ -59,13 +59,10 @@ export default {
                     DEFAULT: 'hsl(var(--card))',
                     foreground: 'hsl(var(--card-foreground))'
                 },
-                education: {
-                    blue: 'hsl(var(--education-blue))',
-                    green: 'hsl(var(--education-green))'
-                },
-                success: 'hsl(var(--success))',
-                warning: 'hsl(var(--warning))',
-                info: 'hsl(var(--info))',
+                'sky-blue': 'hsl(var(--sky-blue))',
+                lavender: 'hsl(var(--lavender))',
+                lemon: 'hsl(var(--lemon))',
+                peach: 'hsl(var(--peach))',
                 sidebar: {
                     DEFAULT: 'hsl(var(--sidebar-background))',
                     background: 'hsl(var(--sidebar-background))',
