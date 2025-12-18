@@ -73,21 +73,19 @@
 
 ### 7. 修改技能特长
 
-找到第302-319行左右，修改专业技能：
+修改专业技能：
 ```tsx
 { name: 'Web开发', level: 85, color: 'bg-primary' },  // 修改技能名称和熟练度
 { name: '数据分析', level: 75, color: 'bg-secondary' },
 { name: '项目管理', level: 70, color: 'bg-lavender' }
 ```
 
-找到第328-345行左右，修改语言能力：
+修改语言能力：
 ```tsx
 { name: '中文', level: 100, color: 'bg-primary' },
 { name: '英语', level: 80, color: 'bg-secondary' },
 { name: '日语', level: 60, color: 'bg-lavender' }
 ```
-
-找到第355-368行左右，修改计算机技能标签。
 
 ### 8. 修改联系方式
 

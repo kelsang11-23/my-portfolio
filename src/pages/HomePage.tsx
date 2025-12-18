@@ -346,31 +346,6 @@ export default function HomePage() {
                 </div>
               </CardContent>
             </Card>
-
-            <Card className="rounded-3xl border-2 hover:shadow-lg transition-shadow xl:col-span-2">
-              <CardContent className="p-6 xl:p-8">
-                <h3 className="text-xl xl:text-2xl font-bold mb-6">计算机技能</h3>
-                <div className="grid grid-cols-2 xl:grid-cols-4 gap-4">
-                  {[
-                    'HTML/CSS',
-                    'JavaScript',
-                    'React',
-                    'Python',
-                    'Git',
-                    'Photoshop',
-                    'Office',
-                    'Figma'
-                  ].map((skill, index) => (
-                    <div
-                      key={index}
-                      className="px-4 py-3 rounded-2xl bg-gradient-to-br from-accent to-muted text-center font-medium text-sm xl:text-base hover:shadow-md transition-shadow"
-                    >
-                      {skill}
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
