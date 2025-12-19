@@ -1,14 +1,12 @@
-import { defineConfig } from "vite";
-import { miaodaDevPlugin } from "miaoda-sc-plugin";
+import { defineConfig } from 'vite';
 import react from "@vitejs/plugin-react";
 import svgr from "vite-plugin-svgr";
 import path from "path";
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/my-portfolio/', // 适配GitHub Pages子路径
   plugins: [
     react(),
-    miaodaDevPlugin(),
     svgr({
       svgrOptions: {
         icon: true,
