@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Mail, Phone, MapPin, Github, Linkedin, Heart, Code, Book, Music, Palette, Camera, Coffee } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Heart, Code, Book, Music, Palette, Camera, Coffee, Activity, MessageSquare, Users } from 'lucide-react';
 
 export default function HomePage() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -43,7 +44,7 @@ export default function HomePage() {
             <div className="text-xl xl:text-2xl font-bold bg-gradient-to-r from-primary via-secondary to-lavender bg-clip-text text-transparent">
               我的个人网站
             </div>
-            <div className="hidden xl:flex gap-6">
+            <div className="hidden xl:flex gap-6 items-center">
               {[
                 { id: 'hero', label: '首页' },
                 { id: 'about', label: '关于我' },
@@ -61,6 +62,18 @@ export default function HomePage() {
                   {item.label}
                 </button>
               ))}
+              <Link to="/guestbook">
+                <Button variant="outline" size="sm" className="gap-2">
+                  <MessageSquare className="w-4 h-4" />
+                  留言板
+                </Button>
+              </Link>
+              <Link to="/visitors">
+                <Button variant="outline" size="sm" className="gap-2">
+                  <Users className="w-4 h-4" />
+                  访客
+                </Button>
+              </Link>
             </div>
             {/* 移动端菜单按钮 */}
             <button
@@ -102,8 +115,20 @@ export default function HomePage() {
                 {item.label}
               </button>
             ))}
+            <Link to="/guestbook" className="block px-4 py-2">
+              <Button variant="outline" size="sm" className="w-full gap-2">
+                <MessageSquare className="w-4 h-4" />
+                留言板
+              </Button>
+            </Link>
+            <Link to="/visitors" className="block px-4 py-2">
+              <Button variant="outline" size="sm" className="w-full gap-2">
+                <Users className="w-4 h-4" />
+                访客记录
+              </Button>
+            </Link>
           </div>
-        </div>
+          </div>
       </nav>
 
       {/* Hero Section */}
