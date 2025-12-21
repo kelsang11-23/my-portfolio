@@ -1,0 +1,88 @@
+[33mcommit 3788662ed114773bf970547fc67ef46695068d43[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mgh-pages[m[33m, [m[1;31morigin/gh-pages[m[33m)[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Sun Dec 21 14:19:41 2025 +0800
+
+    update avatar image
+
+[33mcommit 2c95628a0062e39ece9317892756d447b6fd97bc[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Sat Dec 20 22:45:51 2025 +0800
+
+    修复路由导入和接口请求问题
+
+[33mcommit e7d612cb2a1edbd752f18133cd02dcb7cf9612f8[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Fri Dec 19 11:19:24 2025 +0800
+
+    更新个人信息
+
+[33mcommit ec6f5eefa8a72345dbb333bd62a2b683b8ce8418[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Fri Dec 19 10:36:44 2025 +0800
+
+    add deploy files
+
+[33mcommit 1ad3e2ed7dfa5daebf64dbca15c3a69b3f8dbc25[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Thu Dec 18 15:21:36 2025 +0800
+
+    Initial commit: 个人介绍网站
+
+[33mcommit e49b656ac774051e73af31f2b7531f2c874115f7[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Thu Dec 18 15:17:33 2025 +0800
+
+    ISSUE: # Issue
+    
+    创建马卡龙色系个人自我介绍网站
+    SUMMARY: # 修改内容
+    
+    **新建文件**
+    - \`src/pages/HomePage.tsx\` (459行) - 主页面组件，包含5个section
+    - \`src/db/supabase.ts\` - 数据库占位文件
+    - \`src/types/types.ts\` - TypeScript类型定义
+    - \`docs/CUSTOMIZATION_GUIDE.md\` - 详细的自定义指南
+    - \`docs/DEPLOYMENT.md\` - 完整的部署教程
+    
+    **修改文件**
+    - \`src/index.css\` - 配置马卡龙色系主题变量
+    - \`tailwind.config.js\` - 添加自定义颜色配置
+    - \`src/routes.tsx\` - 更新路由配置指向HomePage
+    - \`src/contexts/AuthContext.tsx\` - 修复类型错误
+    - \`README.md\` - 更新项目介绍和使用说明
+    - \`TODO.md\` - 记录任务完成情况
+    
+    **删除文件**
+    - \`src/pages/SamplePage.tsx\` - 删除示例页面
+    
+    **技术实现**
+    - 使用React + TypeScript构建
+    - Tailwind CSS实现响应式设计
+    - shadcn/ui提供高质量UI组件
+    - Lucide React提供图标
+    - 所有图片使用CDN链接
+    - 代码通过TypeScript和Biome lint检查
+
+[33mcommit 4dd71774a5349f7eeaee95571268fc2dbc9bbd3f[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Sat Dec 13 18:06:15 2025 +0800
+
+    Initial miaoda project setup with React TypeScript Vite template 23c85ca8e0049c3f9075a34587be1e8fa1a4118f no sync
+
+[33mcommit f9d2bc341dd395aad829881aba8d4dc161befc8b[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Fri Dec 19 11:21:07 2025 +0800
+
+    Updates
+
+[33mcommit 00647f5a8cb44e2eed951402466c05afebe78d97[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Fri Dec 19 10:53:52 2025 +0800
+
+    Updates
+
+[33mcommit 3816dbb28598004a8c184fc076ae6d4032623f36[m
+Author: miaoda <miaoda@baidu.com>
+Date:   Fri Dec 19 10:39:54 2025 +0800
+
+    Updates
