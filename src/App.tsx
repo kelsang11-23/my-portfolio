@@ -34,7 +34,7 @@ function VisitorTracker() {
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       {/*<AuthProvider>*/}
       {/*<RouteGuard>*/}
        <VisitorTracker />

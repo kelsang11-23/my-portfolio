@@ -139,7 +139,7 @@ export default function HomePage() {
               <div className="w-32 h-32 xl:w-48 xl:h-48 rounded-full bg-gradient-to-br from-primary via-secondary to-lavender p-1">
                 <div className="w-full h-full rounded-full bg-card flex items-center justify-center">
                   <img
-                    src="https://miaoda-site-img.cdn.bcebos.com/images/40d9de32-7639-4433-a5f9-ba17ad250207.jpg"
+                     src="https://miaoda-conversation-file.cdn.bcebos.com/user-80mblarr87pc/conv-8bb92nctylts/20251218/file-8bean2143gu8.jpg"
                     alt="个人头像"
                     className="w-full h-full rounded-full object-cover"
                   />
